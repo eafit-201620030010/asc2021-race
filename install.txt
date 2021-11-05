@@ -1,0 +1,475 @@
+    1  vim .ssh/authorized_keys
+    2  exit
+    3  exit 
+    4  ls
+    5  logout
+    6  ls
+    7  vim .ssh/authorized_keys
+    8  ls
+    9  pwd
+   10  ll
+   11  ll -a
+   12  git clone https://github.com/eafit-201620030010/asc2021-race.git
+   13  ll /
+   14  cd shared
+   15  ls
+   16  cd shared
+   17  cd /shared
+   18  ls
+   19  mv /home/ec2-user/asc2021-race /shared
+   20  ls
+   21  squeue 
+   22  sinfo 
+   23  ls
+   24  ssh compute-dy-g4nxlarge-1
+   25  salloc -N 1 --time=00:30:00
+   26  sinfo 
+   27  ssh compute-dy-g4dnxlarge-1
+   28  sinfo 
+   29  ssh compute-dy-g4dnxlarge-1
+   30  sinfo 
+   31  ssh compute-dy-g4dnxlarge-1
+   32  squeue 
+   33  nvidia-smi 
+   34  scancel 2
+   35  squeue 
+   36  sinfo 
+   37  ls
+   38  sinfo
+   39  ls
+   40  wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1a9Rxu7sn2vJo91XqFWHCe-HucdFnA03Z' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1a9Rxu7sn2vJo91XqFWHCe-HucdFnA03Z" -O pretrained_model_asc.tar.gz && rm -rf /tmp/cookies.txt
+   41  ls
+   42  cd asc2021-race/
+   43  ls
+   44  cd source_code/
+   45  ls
+   46  rm -rf pretrained_model_asc/
+   47  ls
+   48  cd 
+   49  ls
+   50  tar -xzvf pretrained_model_asc.tar.gz 
+   51  ls
+   52  ll
+   53  pwd
+   54  mv pretrained_model_asc /shared/asc2021-race/
+   55  cd /shared/asc2021-race/
+   56  ls
+   57  mv pretrained_model_asc source_code/
+   58  cd source_code/
+   59  ls
+   60  bash ./run.sh 
+   61  python --version 
+   62  sinfo 
+   63  python3 
+   64  ls
+   65  vim run.sh 
+   66  bash ./run.sh 
+   67  vim run.sh 
+   68  bash ./run.sh 
+   69  nvidia-smi 
+   70  salloc -N 1 --time=00:30:00
+   71  squeue
+   72  sinfo 
+   73  ssh compute-dy-g4dnxlarge-1
+   74  ssh -v compute-dy-g4dnxlarge-1
+   75  sinfo
+   76  ssh compute-dy-g4dnxlarge-1
+   77  sinfo 
+   78  nvidia-smi 
+   79  ls
+   80  cd /shared/
+   81  ls
+   82  cd asc2021-race/
+   83  ls
+   84  cd source_code/
+   85  ls
+   86  bash ./run.sh 
+   87  pip3 install tqdm
+   88  bash ./run.sh 
+   89  pip3 install tqdm install boto3 sentencepiece tensorboardX
+   90  git clone https://github.com/NVIDIA/apex
+   91  pip3 install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ${PWD}/apex
+   92  nvidia-smi 
+   93  pi3p install torch_nightly -f https://download.pytorch.org/whl/nightly/cu112/torch_nightly.html
+   94  ls
+   95  ls -al
+   96  vim --version
+   97  exit
+   98  ls
+   99  pip3 install torch_nightly -f https://download.pytorch.org/whl/nightly/cu112/torch_nightly.html
+  100  pip3 install torch_nightly -f https://download.pytorch.org/whl/nightly/cu100/torch_nightly.html
+  101  ls
+  102  python3
+  103  history
+  104  pip3 install tensorflow 
+  105  python3
+  106  pip uninstall tensorflow
+  107  pip3 uninstall tensorflow
+  108  ls
+  109  sinfo 
+  110  ssh compute-dy-g4dnxlarge-1
+  111  ls
+  112  python
+  113  python3
+  114  pip3 install tf-nightly
+  115  python3
+  116  ls
+  117  pip3 uninstall tensorflow
+  118  ls
+  119  nvidia-smi
+  120  ls
+  121  tar zxvf pretrained_model_asc.tar.gz 
+  122  lls
+  123  ls
+  124  rm -rf pretrained_model_asc
+  125  tar zxvf pretrained_model_asc.tar.gz 
+  126  ls /shared
+  127  cd /shared/asc2021-race/source_code/
+  128  ls
+  129  bash run.sh
+  130  ls
+  131  vim run.sh
+  132  git status
+  133  vim pretrained_model_asc/.gitattributes
+  134  git pull
+  135  ls
+  136  git lfs
+  137  ls
+  138  mv pretrained_model_asc/ pretrained_model_asc_bak
+  139  ls
+  140  git status
+  141  ls
+  142  git status
+  143  bash run.sh
+  144  pytho3
+  145  python3
+  146  pip3 uninstall apex
+  147  ls
+  148  mv apex/ apex_malo
+  149  git clone https://github.com/NVIDIA/apex
+  150  pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ${PWD}/apex
+  151  pip3 install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ${PWD}/apex
+  152  pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ${PWD}/apex
+  153  pip3 install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ${PWD}/apex
+  154  cd apex
+  155  ls
+  156  pip3 install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
+  157  python3
+  158  ls
+  159  pip3 uninstall apex
+  160  pip3 install apex
+  161  python3
+  162  ls
+  163  pip3 uninstall apex
+  164  ls
+  165  vim setup.py 
+  166  pip3 uninstall -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
+  167  python3
+  168  pip3 uninstall apex
+  169  pip uninstall apex
+  170  cd ..
+  171  rm -rf apex
+  172  git clone https://github.com/NVIDIA/apex
+  173  cd apex
+  174  pip3 install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
+  175  sinfo
+  176  ssh compute-dy-g4dnxlarge-1
+  177  sinfo
+  178  ssh compute-dy-g4dnxlarge-1
+  179  ls
+  180  sinfo
+  181  ssh compute-dy-g4dnxlarge-1
+  182  sinfo
+  183  salloc -N 1 --time=00:30:00
+  184  ls /share
+  185  ls
+  186  ls /shared
+  187  ls /
+  188  ls /shared
+  189  cd /shared
+  190  ls
+  191  htop
+  192  sudo yum install htop
+  193  htop
+  194  sudo yum install htop -y
+  195  top
+  196  sudo yum install htop -y
+  197  cat /etc/os-release 
+  198  lsb_release -a
+  199  sudo yum -y install htop
+  200  pip3 uninstall tensorflow
+  201  sinfo
+  202  ssh  compute-dy-g4dnxlarge-1
+  203  ssh compute-dy-g4dnxlarge-1
+  204  sudo ssh compute-dy-g4dnxlarge-1
+  205  sinfo
+  206  sudo ssh compute-dy-g4dnxlarge-1
+  207  ssh compute-dy-g4dnxlarge-1
+  208  ls /usr/local/cuda
+  209  echo $CUDA_HOME
+  210  nvidia-smi
+  211  pip3 uninstall torch
+  212  ls
+  213  cd /shared/
+  214  ls
+  215  cd asc2021-race/
+  216  ls
+  217  cd source_code/
+  218  ls
+  219  python3
+  220  ls
+  221  bash run.sh
+  222  ls
+  223  python3
+  224  pip3 install apex.optimizers
+  225  ls
+  226  rm -rf apex_malo/
+  227  ls
+  228  cd /shared/
+  229  git clone https://github.com/NVIDIA/apex
+  230  pip3 install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" /shared/apex
+  231  echo $CUDA_HOME
+  232  #export CUDA_HOME=/usr/local/cuda-11.3.0
+  233  ls /usr/local/cuda
+  234  cd /usr/local/cuda
+  235  ls
+  236  vim version.json 
+  237  nvidia-smi
+  238  export CUDA_HOME=/usr/local/cuda-11.3
+  239  ls /usr/local/cuda-11.3/bin/
+  240  export PATH=/usr/local/cuda-11.3/bin:$PATH
+  241  ls /usr/local/cuda-11.3/lib64/
+  242  export LD_LIBRARY_PATH=/usr/local/cuda-11.3/lib64:$LD_LIBRARY_PATH
+  243  nvidia-smi
+  244  pip3 install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" /shared/apex
+  245  pip3 uninstall pytorch
+  246  pip3 list
+  247  pip3 list | grep torch
+  248  pip3 uninstall torch-nightly
+  249  ls
+  250  pip3 install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+  251  ls
+  252  cd
+  253  cd /shared/
+  254  cd apex/
+  255  pip3 install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" /shared/apex
+  256  pip3 install torch==1.9.0+cu113 torchvision==0.10.0+cu113 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+  257  pip3 install torch==1.9.0+cu112 torchvision==0.10.0+cu112 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+  258  echo $CUDA_HOME
+  259  export $CUDA_HOME=/usr/local/cuda
+  260  export CUDA_HOME=/usr/local/cuda
+  261  export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+  262  export PATH=/usr/local/cuda/bin:$PATH
+  263  pip3 install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+  264  pip3 uninstall torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+  265  pip3 install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" /shared/apex
+  266  lscpu
+  267  lsgpu
+  268  apt
+  269  yum
+  270  lsof
+  271  lscpu
+  272  dnf
+  273  uname -a
+  274  lsb_release -d
+  275  ls
+  276  sinfo
+  277  squeue
+  278  man salloc
+  279  nvidia-smi
+  280  cd /shared/asc2021-race/source_code/
+  281  ll
+  282  ./run.sh
+  283  bash ./run.sh
+  284  pip3 install FusedAdam
+  285  pip3 install fusedadam
+  286  pip3 install FusedAdam
+  287  echo $CUDA_HOME
+  288  python3
+  289  python3.8
+  290  python3.5
+  291  python3.7
+  292  pip3 list
+  293  bash ./run.sh
+  294  ll
+  295  cd 
+  296  cd /shared/
+  297  cd apex/
+  298  ll
+  299  cat requirements.txt 
+  300  pip3 install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
+  301  sinfo
+  302  ssh compute-dy-g4dnxlarge-1
+  303  sinfo
+  304  ssh compute-dy-g4dnxlarge-1
+  305  ls
+  306  echo $CUDA
+  307  echo $CUDA_VERSION
+  308  ismi
+  309  nvidia-smi
+  310  ssh compute-dy-g4dnxlarge-1
+  311  sinfo
+  312  ssh compute-dy-g4dnxlarge-1
+  313  sinfo
+  314  ssh compute-dy-g4dnxlarge-1
+  315  pip3 install -v --disable-pip-version-check --no-cache-dir ./
+  316  cd -
+  317  ls
+  318  cd /shared/
+  319  ls
+  320  cd asc2021-race/
+  321  ls
+  322  hostname
+  323  sinfo
+  324  salloc -N 1 --time=01:00:00
+  325  ls
+  326  mkdir aurelio 
+  327  cd aurelio 
+  328  ls
+  329  wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1a9Rxu7sn2vJo91XqFWHCe-HucdFnA03Z' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1a9Rxu7sn2vJo91XqFWHCe-HucdFnA03Z" -O pretrained_model_asc.tar.gz && rm -rf /tmp/cookies.txt
+  330  sinfo
+  331  ssh compute-dy-g4dnxlarge-1
+  332  cat /usr/local/cuda/version.json 
+  333  diff /usr/local/cuda/version.json /usr/local/cuda-11.3/version.json 
+  334  pip3 uninstall pytorch
+  335  pip3 install torch==1.10.0+cu113 torchvision==0.10.0+cu113 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+  336  ls
+  337  sinfo 
+  338  ssh compute-dy-g4dnxlarge-1
+  339  pip3 install torch==1.10.0+cu113 torchvision==0.11.1+cu113 torchaudio===0.10.0+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
+  340  ll
+  341  sinfo
+  342  ssh compute-dy-g4dnxlarge-1
+  343  ll
+  344  pip3 list
+  345  cd /shared/apex/
+  346  ll
+  347  cd ..
+  348  ll
+  349  cd asc2021-race/source_code/
+  350  ll
+  351  gcc
+  352  gcc --v
+  353  gcc --version
+  354  ll
+  355  cd
+  356  cd /shared/
+  357  cd apex/
+  358  pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
+  359  pip3 install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
+  360  sudo dnf install python3-devel
+  361  sudo yum install python3-devel
+  362  pip3 install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
+  363  ll
+  364  cd ..
+  365  cd asc2021-race/source_code/
+  366  ll
+  367  bash run.sh
+  368  #sudo yum install python3-devel
+  369  ll
+  370  bash eval.sh
+  371  emacs -nw run.sh 
+  372  vi -nw run.sh 
+  373  vi  run.sh 
+  374  ll
+  375  cd RACE_TEST/
+  376  ll
+  377  cd train/
+  378  ll
+  379  cd ..
+  380  ll
+  381  cat run.sh 
+  382  vi run.sh 
+  383  ls
+  384  cd aurelio/
+  385  ls
+  386  tar -xzvf pretrained_model_asc.tar.gz 
+  387  mv pretrained_model_asc /shared/asc2021-race/source_code/
+  388  docker
+  389  cd /shared/asc2021-race/source_code/
+  390  ll
+  391  yum install emacs
+  392  sudo yum install emacs
+  393  emacs run.sh 
+  394  emacs -nw run.sh 
+  395  ll
+  396  bash run.sh 
+  397  emacs -nw run.sh 
+  398  bash run.sh 
+  399  emacs -nw run.sh 
+  400  bash run.sh 
+  401  emacs -nw run.sh 
+  402  bash run.sh 
+  403  exit
+  404  pip3 install torch==1.10.0+cu113 torchvision==0.10.0+cu113 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+  405  pip3 install torch==1.10.0+cu113 torchvision==0.11.0+cu113 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+  406  pip3 install torch==1.10.0+cu113 torchvision==0.11.0+cu113 torchaudio==0.10.0 -f https://download.pytorch.org/whl/torch_stable.html
+  407  pip3 install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" /shared/apex
+  408  gcc
+  409  ls
+  410  cd /shared/apex/
+  411  pip3 install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" /shared/apex
+  412  cd ..
+  413  ls
+  414  cd asc2021-race/
+  415  ls
+  416  cd source_code/
+  417  ls
+  418  rm -rf apex/
+  419  git clone https://github.com/NVIDIA/apex
+  420  ls
+  421  rm -rf apex
+  422  git clone https://github.com/NVIDIA/apex
+  423  cd apex/
+  424  pip3 install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
+  425  pip3 install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
+  426  top
+  427  squeue 
+  428  scancel 6
+  429  squeue 
+  430  sinfo 
+  431  exit
+  432  sinfo
+  433  ssh compute-dy-g4dnxlarge-1
+  434  sinfo
+  435  ssh compute-dy-g4dnxlarge-1
+  436  sinfo 
+  437  exit
+  438  htop
+  439  top
+  440  sinfo
+  441  exit
+  442  sinf
+  443  sinfo
+  444  ssh compute-dy-g4dnxlarge-1
+  445  exit
+  446  ls
+  447  cd /shared/asc2021-race/source_code/
+  448  ls
+  449  vim run
+  450  vim run.sh 
+  451  vim eval.sh 
+  452  vim run.sh
+  453  vim eval.sh 
+  454  sinfo
+  455  squeue
+  456  sinfo
+  457  ls
+  458  ssh compute-dy-g4dnxlarge-1
+  459  sinfo
+  460  ssh compute-dy-g4dnxlarge-1
+  461  ls 
+  462  sinfo
+  463  ssh compute-dy-g4dnxlarge-1
+  464  sinfo
+  465  squeue
+  466  salloc -N 1 --time=01:00:00
+  467  sinfo
+  468  ssh compute-dy-g4dnxlarge-1
+  469  ls
+  470  cd /shared/
+  471  ls
+  472  cd asc2021-race/
+  473  ls
+  474  history 
+  475  history > install.txt 
