@@ -349,9 +349,12 @@ def main():
     if (args.local_rank == -1 or torch.distributed.get_rank() == 0):
         test_dir = os.path.join(args.data_dir, 'test')
         results = {}
-        for fid in range(500):
+
+        test_fnames = glob.glob(test_dir + "/*json")
+        #for fid in range(500):
+        for fid in range(len(test_fnames)):
             s = str(fid).zfill(4)
-            print('HOLA',s)
+
             #fname = test_dir+'/asc'+s+'.txt'
             fname = test_dir+'/asc'+s+'.json'
             eval_examples = read_race_example(fname)
